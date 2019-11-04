@@ -7,11 +7,11 @@ import { Units } from "../src";
 // export const fail: Quantity.Mass = Units.CentiMeter;
 
 describe("units_test_equals", () => {
-  test("Base unit One should be equal", () => {
-    const unit = Unit.One;
-    const unit2 = Serialize.stringToUnit("One", Units)!;
-    expect(Unit.equals(unit, unit2)).toBeTruthy();
-  });
+  // test("Base unit One should be equal", () => {
+  //   const unit = Unit.One;
+  //   const unit2 = Serialize.stringToUnit("One", Units)!;
+  //   expect(Unit.equals(unit, unit2)).toBeTruthy();
+  // });
   test("Base unit One should be equal. Order should not matter", () => {
     const unit = Serialize.unitToString(Unit.One);
     const unit2 = Serialize.unitToString(Unit.One);
