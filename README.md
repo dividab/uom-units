@@ -16,6 +16,20 @@ This package has units that can be used with the [uom](https://www.npmjs.com/pac
 
 `npm install --save uom-units`
 
+## How to use
+
+The main export from this package is the `Units` module that contains all the defined quantities and units.
+
+Here is an example how to use the defined units for conversion:
+
+```js
+import { Amount } from "uom";
+import { Units } from "uom-units";
+
+const amount = Amount.create(10, Units.Meter);
+const inch = Amount.valueAs(Units.Inch, amount);
+```
+
 ## How to develop
 
 Create a PR for addition or changes. Please update the changelog's "unreleased" section with your changes in your PR.
