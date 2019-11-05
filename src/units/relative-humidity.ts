@@ -2,7 +2,7 @@ import { Unit } from "uom";
 
 export type RelativeHumidity = "RelativeHumidity";
 
-export const HumidityFactor = Unit.createBase(
+export const HumidityFactor = Unit.createBase<RelativeHumidity>(
   "HumidityFactor",
   "RelativeHumidity",
   "r.H."

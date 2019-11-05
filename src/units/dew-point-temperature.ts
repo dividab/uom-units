@@ -2,7 +2,7 @@ import { Unit } from "uom";
 
 export type DewPointTemperature = "DewPointTemperature";
 
-export const CelsiusDewPoint = Unit.createBase(
+export const CelsiusDewPoint = Unit.createBase<DewPointTemperature>(
   "CelsiusDewPoint",
   "DewPointTemperature",
   "dp°C"

@@ -2,7 +2,7 @@ import { Unit } from "uom";
 
 export type WetTemperature = "WetTemperature";
 
-export const CelsiusWet = Unit.createBase(
+export const CelsiusWet = Unit.createBase<WetTemperature>(
   "CelsiusWet",
   "WetTemperature",
   "wb°C"

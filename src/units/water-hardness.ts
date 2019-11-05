@@ -3,7 +3,7 @@ import { Unit } from "uom";
 export type WaterHardness = "WaterHardness";
 
 // Water hardness
-export const MilliGramCalciumPerLiter = Unit.createBase(
+export const MilliGramCalciumPerLiter = Unit.createBase<WaterHardness>(
   "MilliGramCalciumPerLiter",
   "WaterHardness",
   "mg Ca²⁺/l"

@@ -3,7 +3,7 @@ import { Unit } from "uom";
 export type DeltaDewPointTemperature = "DeltaDewPointTemperature";
 
 // DeltaDewPointTemperature
-export const DeltaCelsiusDewPoint = Unit.createBase(
+export const DeltaCelsiusDewPoint = Unit.createBase<DeltaDewPointTemperature>(
   "DeltaCelsiusDewPoint",
   "DeltaDewPointTemperature",
   "dp°C"
