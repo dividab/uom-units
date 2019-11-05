@@ -1,6 +1,6 @@
+import { Unit } from "uom";
 import * as UnitDivide from "../unit-divide";
 import { Liter, CubicMeter, Gallon, HundredCubicFeet } from "./volume";
-import { Unit } from "uom";
 
 export type DimensionlessPerVolume = "DimensionlessPerVolume";
 

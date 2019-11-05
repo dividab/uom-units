@@ -1,5 +1,5 @@
-import * as UnitDivide from "../unit-divide";
 import { Unit, UnitPrefix, BaseUnits } from "uom";
+import * as UnitDivide from "../unit-divide";
 import { Joule } from "./energy";
 
 export type Power = "Power";

@@ -1,5 +1,5 @@
-import { Units } from "../src";
 import { Serialize } from "uom";
+import { Units } from "../src";
 
 describe("serialize_test", () => {
   test("For PPM should return Units.PPM", () => {

@@ -1,5 +1,5 @@
-import * as UnitDivide from "../unit-divide";
 import { Unit, BaseUnits } from "uom";
+import * as UnitDivide from "../unit-divide";
 import { Hour } from "./duration";
 
 export type DimensionlessPerDuration = "DimensionlessPerDuration";

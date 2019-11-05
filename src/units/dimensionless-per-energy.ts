@@ -1,5 +1,5 @@
-import * as UnitDivide from "../unit-divide";
 import { Unit } from "uom";
+import * as UnitDivide from "../unit-divide";
 import { Joule, Megajoule, Kilojoule, Therm, MegaBtu, Btu } from "./energy";
 import { KiloWattHour } from "./energy2";
 
