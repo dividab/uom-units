@@ -2,10 +2,7 @@
  * This module re-exports all the base units for backwards compability
  */
 
-import { Unit, BaseUnits } from "uom";
-
-export type Dimensionless = Unit.Dimensionless;
-export const One = Unit.One;
+import { BaseUnits } from "uom";
 
 export const Ampere = BaseUnits.Ampere;
 export const Candela = BaseUnits.Candela;
