@@ -9,7 +9,8 @@ import {
   GramPerHour,
   GrainPerHour,
   GrainPerSecond,
-  KilogramPerHour
+  KilogramPerHour,
+  StandardLiterPerSecond
 } from "./mass-flow";
 import { SquareMeter, SquareFeet } from "./area";
 
@@ -40,6 +41,12 @@ export const GramPerSquareMeterSecond = UnitDivide.massFlowByArea(
 export const StandardCubicMeterPerHourPerSquareMeter = UnitDivide.massFlowByArea(
   "StandardCubicMeterPerHourPerSquareMeter",
   StandardCubicMeterPerHour,
+  SquareMeter
+);
+
+export const StandardLiterPerSecondPerSquareMeter = UnitDivide.massFlowByArea(
+  "StandardLiterPerSecondPerSquareMeter",
+  StandardLiterPerSecond,
   SquareMeter
 );
 
