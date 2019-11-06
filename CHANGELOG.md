@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Added StandardLiterPerSecondPerSquareMeter to mass-flow-per-area and corrected unitformat on GramPerSquareMeterSecond
+
 ## [v0.1.0] - 2019-11-04
 
 ### Added

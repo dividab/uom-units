@@ -9,13 +9,15 @@ export const KilogramPerSquareMeterHour = UnitFormat.createUnitFormat(
   2
 );
 export const GramPerSquareMeterHour = UnitFormat.createUnitFormat("g/m²h", 2);
-export const GramPerSquareMeterSecond = UnitFormat.createUnitFormat(
-  "kg/m²s",
-  2
-);
+export const GramPerSquareMeterSecond = UnitFormat.createUnitFormat("g/m²s", 2);
 export const StandardCubicMeterPerHourPerSquareMeter = UnitFormat.createUnitFormat(
   "Sm³/m²h",
   0
+);
+
+export const StandardLiterPerSecondPerSquareMeter = UnitFormat.createUnitFormat(
+  "Sl/m²s",
+  1
 );
 
 export const PoundLbPerSquareFeetHour = UnitFormat.createUnitFormat(
