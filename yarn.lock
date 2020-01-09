@@ -4736,10 +4736,10 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-uom@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/uom/-/uom-3.0.0.tgz#1467f49ca44234adb8efc6a6e6e4c227f1865142"
-  integrity sha512-yVz/6Htfe+TSkQF4Vig8abgDxuZxXOH2ZS168oyERjcSvVjhhsIBn9qrq7mQLDgZ6H5WjRwnFCZlki2Am/w0EQ==
+uom@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/uom/-/uom-4.0.0.tgz#0cc472be7abb4d44c4e744bcce9a1c758e15644a"
+  integrity sha512-NBiQUWyIsNCQms8MxEW26sCGuhFjXgSWEXa8DBdAx0ydOxcTE/nhQTmKMxyehFXYWbtuCZNdITWTuEMyNfGyiw==
 
 uri-js@^4.2.2:
   version "4.2.2"
