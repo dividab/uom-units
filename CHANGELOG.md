@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.6.0] - 2020-01-09
+
+### Added
+
+- Upgraded uom to 4.0
+
 ## [v0.5.0] - 2019-11-06
 
 ### Added
