@@ -9,7 +9,7 @@
   "repository": "https://github.com/dividab/uom-units",
   "license": "MIT",
   "dependencies": {
-    "uom": "^3.0.0"
+    "uom": "^4.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
