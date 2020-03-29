@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- Include typescript source from `src/` in published npm package. See PR [#50](https://github.com/dividab/uom/pull/50) for more info.
+- Include typescript source from `src/` in published npm package. See PR [#8](https://github.com/dividab/uom-units/pull/8) for more info.
 
 ## [v0.6.0](https://github.com/dividab/uom/compare/v0.5.0...v0.6.0) - 2020-01-09
 
