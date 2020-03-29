@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/dividab/uom/compare/v0.6.0...master)
 
+## [v0.6.1](https://github.com/dividab/uom/compare/v0.6.0...v0.6.1) - 2020-03-29
+
 ### Added
 
 - Include typescript source from `src/` in published npm package. See PR [#8](https://github.com/dividab/uom-units/pull/8) for more info.
