@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/dividab/uom/compare/v0.6.0...master)
 
+## [v0.7.0](https://github.com/dividab/uom/compare/v0.6.0...v0.7.0) - 2020-10-08
+
+### Added
+
+- Upgraded uom to 5.0.0 and added unit lookup function. See PR [#11](https://github.com/dividab/uom-units/pull/11) for more info.
+
 ## [v0.6.1](https://github.com/dividab/uom/compare/v0.6.0...v0.6.1) - 2020-03-29
 
 ### Added
