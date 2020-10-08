@@ -1,5 +1,5 @@
 import { Unit, Serialize, BaseUnits } from "uom";
-import { Units } from "../src";
+import { unitLookup, Units } from "../src";
 // import * as Quantity from "../src/quantity";
 
 // TODO: Add typing tests:
@@ -19,7 +19,12 @@ describe("units_test_equals", () => {
   });
   test("Alternate unit Radian should be equal", () => {
     const unit = Units.Radian;
-    const unit2 = Serialize.stringToUnit("Radian", Units)!;
+    const unit2 = Serialize.stringToUnit("Radian", unitLookup)!;
+    expect(Unit.equals(unit, unit2)).toBeTruthy();
+  });
+  test("Alternate unit Radian in lower case should be equal", () => {
+    const unit = Units.Radian;
+    const unit2 = Serialize.stringToUnit("radian", unitLookup)!;
     expect(Unit.equals(unit, unit2)).toBeTruthy();
   });
   test("Alternate unit compare different object references", () => {
