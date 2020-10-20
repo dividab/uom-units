@@ -1,4 +1,4 @@
-import { Format, BaseUnits } from "uom";
+import { UnitFormat, UnitMap, BaseUnits } from "uom";
 import { Units, UnitsFormat } from "..";
 
 const containsAll = <T>(
@@ -12,7 +12,7 @@ const sameMembers = <T>(
 
 describe("format_test", () => {
   test("should get label for Pascal", (done) => {
-    const format = Format.getUnitFormat(Units.Pascal, UnitsFormat);
+    const format = UnitFormat.getUnitFormat(Units.Pascal, UnitsFormat);
     if (!format) {
       done.fail();
       done();
@@ -33,7 +33,7 @@ describe("format_test", () => {
       Units.Inch,
       Units.Mile,
     ];
-    const actual = Format.getUnitsForQuantity("Length", UnitsFormat, Units);
+    const actual = UnitMap.getUnitsForQuantity("Length", Units);
     expect(actual.length).toEqual(expected.length);
     expect(sameMembers(actual, expected)).toBeTruthy();
   });
@@ -49,20 +49,14 @@ describe("format_test", () => {
       Units.Inch,
       Units.Mile,
     ];
-    const actual = Format.getUnitsForQuantity("length", UnitsFormat, Units);
+    const actual = UnitMap.getUnitsForQuantity("length", Units);
     expect(actual.length).toEqual(expected.length);
     expect(sameMembers(actual, expected)).toBeTruthy();
   });
 
   test("Should get units for length subset", () => {
     const expected = [BaseUnits.Meter];
-    const actual = Format.getUnitsForQuantity(
-      "length",
-      {
-        Meter: UnitsFormat.Meter,
-      },
-      Units
-    );
+    const actual = UnitMap.getUnitsForQuantity("length", Units);
     expect(actual.length).toEqual(expected.length);
     console.dir(actual);
     expect(sameMembers(actual, expected)).toBeTruthy();
