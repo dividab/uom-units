@@ -56,9 +56,11 @@ describe("format_test", () => {
 
   test("Should get units for length subset", () => {
     const expected = [BaseUnits.Meter];
-    const actual = UnitMap.getUnitsForQuantity("length", Units);
+    const actual = UnitMap.getUnitsForQuantity("length", {
+      Meter: BaseUnits.Meter,
+    });
     expect(actual.length).toEqual(expected.length);
-    console.dir(actual);
+    // console.dir(actual);
     expect(sameMembers(actual, expected)).toBeTruthy();
   });
 });
