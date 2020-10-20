@@ -23,7 +23,7 @@ const all = [
   ConversionVolumeFlow,
   ConversionVolume,
   ConversionMassFlow,
-  ConversionMassFlowPerArea
+  ConversionMassFlowPerArea,
 ];
 
 // describe("denormalize() with shared test data", () => {
@@ -37,9 +37,9 @@ const all = [
 // });
 
 describe("amount_conversion_test", () => {
-  all.forEach(a => {
-    onlySkip(a.tests).forEach(item => {
-      test(item.name, done => {
+  all.forEach((a) => {
+    onlySkip(a.tests).forEach((item) => {
+      test(item.name, (done) => {
         const amountToTest = Amount.create(item.fromValue, item.fromUnit);
         const actualToValue: number = Amount.valueAs(item.toUnit, amountToTest);
         if (item.delta) {

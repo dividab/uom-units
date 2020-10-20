@@ -3,7 +3,7 @@ import { Units } from "..";
 import { closeTo } from "./test-utils";
 
 describe("derived units", () => {
-  test("Meter times Meter should return unit with 1 element of pow 2", done => {
+  test("Meter times Meter should return unit with 1 element of pow 2", (done) => {
     const newUnit = Unit.times("", "Length", BaseUnits.Meter, BaseUnits.Meter);
     if (newUnit.unitInfo.type === "product") {
       expect(newUnit.unitInfo.elements.length).toEqual(1); //, "Correct elements length");
@@ -13,7 +13,7 @@ describe("derived units", () => {
     }
     done();
   });
-  test("CubicMeter by Second should return correct product unit", done => {
+  test("CubicMeter by Second should return correct product unit", (done) => {
     const newUnit = Unit.divide(
       "",
       "VolumeFlow",
@@ -28,17 +28,17 @@ describe("derived units", () => {
             unit: {
               name: "Meter",
               quantity: "Length",
-              unitInfo: { quantity: "Length", type: "base", symbol: "m" }
-            }
+              unitInfo: { quantity: "Length", type: "base", symbol: "m" },
+            },
           },
           {
             pow: -1,
             unit: {
               name: "Second",
               quantity: "Duration",
-              unitInfo: { quantity: "Duration", type: "base", symbol: "s" }
-            }
-          }
+              unitInfo: { quantity: "Duration", type: "base", symbol: "s" },
+            },
+          },
         ]
         //"Correct elements"
       );
@@ -47,7 +47,7 @@ describe("derived units", () => {
     }
     done();
   });
-  test("CubicMeter by Hour should return correct product unit", done => {
+  test("CubicMeter by Hour should return correct product unit", (done) => {
     const newUnit = Unit.divide("", "VolumeFlow", Units.CubicMeter, Units.Hour);
     if (newUnit.unitInfo.type === "product") {
       expect(newUnit.unitInfo.elements).toEqual(
@@ -57,8 +57,8 @@ describe("derived units", () => {
             unit: {
               name: "Meter",
               quantity: "Length",
-              unitInfo: { quantity: "Length", type: "base", symbol: "m" }
-            }
+              unitInfo: { quantity: "Length", type: "base", symbol: "m" },
+            },
           },
           {
             pow: -1,
@@ -80,22 +80,22 @@ describe("derived units", () => {
                       unitInfo: {
                         quantity: "Duration",
                         type: "base",
-                        symbol: "s"
-                      }
+                        symbol: "s",
+                      },
                     },
                     toParentUnitConverter: {
                       type: "factor",
-                      factor: 60
-                    }
-                  }
+                      factor: 60,
+                    },
+                  },
                 },
                 toParentUnitConverter: {
                   type: "factor",
-                  factor: 60
-                }
-              }
-            }
-          }
+                  factor: 60,
+                },
+              },
+            },
+          },
         ]
         // "Correct elements"
       );
@@ -107,7 +107,7 @@ describe("derived units", () => {
 });
 
 describe("unit conversions", () => {
-  test("2CubicMeterPerSecond_7200CubicMeterPerHour", done => {
+  test("2CubicMeterPerSecond_7200CubicMeterPerHour", (done) => {
     const value = 2.0;
     const convertedValue: number = Unit.convert(
       value,

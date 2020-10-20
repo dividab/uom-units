@@ -7,56 +7,56 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromUnit: Units.Joule,
     fromValue: 1.0,
     toUnit: Units.Kilojoule,
-    toValue: 0.001
+    toValue: 0.001,
   },
   {
     name: "1Kilojoule_1000Joules",
     fromUnit: Units.Kilojoule,
     fromValue: 1.0,
     toUnit: Units.Joule,
-    toValue: 1000.0
+    toValue: 1000.0,
   },
   {
     name: "0Joule_0Kilojoules",
     fromUnit: Units.Joule,
     fromValue: 0.0,
     toUnit: Units.Kilojoule,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "0Kilojoule_0Joules",
     fromUnit: Units.Kilojoule,
     fromValue: 0.0,
     toUnit: Units.Joule,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "1Joule_1Joule",
     fromUnit: Units.Joule,
     fromValue: 1.0,
     toUnit: Units.Joule,
-    toValue: 1.0
+    toValue: 1.0,
   },
   {
     name: "1Kilojoule_1Kilojoule",
     fromUnit: Units.Kilojoule,
     fromValue: 1.0,
     toUnit: Units.Kilojoule,
-    toValue: 1.0
+    toValue: 1.0,
   },
   {
     name: "063Joule_000063Kilojoules",
     fromUnit: Units.Joule,
     fromValue: 0.63,
     toUnit: Units.Kilojoule,
-    toValue: 0.00063
+    toValue: 0.00063,
   },
   {
     name: "589Kilojoule_5890Joules",
     fromUnit: Units.Kilojoule,
     fromValue: 5.89,
     toUnit: Units.Joule,
-    toValue: 5890.0
+    toValue: 5890.0,
   },
   {
     // http://www.wolframalpha.com/input/?i=btu
@@ -65,8 +65,8 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 1.0,
     toUnit: Units.Joule,
     toValue: 1055.0,
-    delta: 0.06
-  }
+    delta: 0.06,
+  },
 ];
 
 //[TestMethod]

@@ -59,9 +59,7 @@ export { Volume } from "./units/volume";
 export { VolumeFlow } from "./units/volume-flow";
 export { VolumeFlowPerArea } from "./units/volume-flow-per-area";
 export { VolumeFlowPerPower } from "./units/volume-flow-per-power";
-export {
-  VolumeFlowPerSquareRootPressure
-} from "./units/volume-flow-per-square-root-pressure";
+export { VolumeFlowPerSquareRootPressure } from "./units/volume-flow-per-square-root-pressure";
 export { WaterHardness } from "./units/water-hardness";
 export { WaterUseEfficiency } from "./units/water-use-efficiency";
 export { WetTemperature } from "./units/wet-temperature";

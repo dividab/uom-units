@@ -2,7 +2,7 @@ import * as UnitDivide from "../unit-divide";
 import { LiterPerSecond, CubicFeetPerMinute } from "./volume-flow";
 import {
   SquareRootPascal,
-  SquareRootInchOfWaterColumn
+  SquareRootInchOfWaterColumn,
 } from "./square-root-pressure";
 
 export type VolumeFlowPerSquareRootPressure = "VolumeFlowPerSquareRootPressure";

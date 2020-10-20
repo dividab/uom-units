@@ -10,7 +10,7 @@ import {
   GrainPerHour,
   GrainPerSecond,
   KilogramPerHour,
-  StandardLiterPerSecond
+  StandardLiterPerSecond,
 } from "./mass-flow";
 import { SquareMeter, SquareFeet } from "./area";
 

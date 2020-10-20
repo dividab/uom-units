@@ -7,8 +7,8 @@ import { ConversionTest } from "./data/conversion-test";
 export function onlySkip(
   tests: ReadonlyArray<ConversionTest>
 ): ReadonlyArray<ConversionTest> {
-  const skips = tests.filter(t => !t.skip);
-  const onlys = skips.filter(t => t.only === true);
+  const skips = tests.filter((t) => !t.skip);
+  const onlys = skips.filter((t) => t.only === true);
   if (onlys.length > 0) {
     return onlys;
   }

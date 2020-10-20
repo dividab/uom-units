@@ -2,7 +2,7 @@ import * as UnitDivide from "../unit-divide";
 import {
   CubicMeterPerSecond,
   CubicFeetPerMinute,
-  LiterPerSecond
+  LiterPerSecond,
 } from "./volume-flow";
 import { SquareMeter, SquareFeet } from "./area";
 

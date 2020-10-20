@@ -8,7 +8,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 10.0,
     toUnit: Units.StandardCubicFootPerMinutePerSquareFeet,
     toValue: 0.5468066494554816,
-    delta: 0.0000001
+    delta: 0.0000001,
   },
   {
     name: "10SCFM3/M2_0.003344KG/M2S",
@@ -16,6 +16,6 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 10.0,
     toUnit: Units.KilogramPerSquareMeterSecond,
     toValue: 0.003344,
-    delta: 0.000001
-  }
+    delta: 0.000001,
+  },
 ];

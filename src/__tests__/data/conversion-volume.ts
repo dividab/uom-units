@@ -7,15 +7,15 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromUnit: Units.Liter,
     fromValue: 0.0,
     toUnit: Units.CubicMeter,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "3liter_0_003cubic_meter",
     fromUnit: Units.Liter,
     fromValue: 3.0,
     toUnit: Units.CubicMeter,
-    toValue: 0.003
-  }
+    toValue: 0.003,
+  },
 ];
 
 /*

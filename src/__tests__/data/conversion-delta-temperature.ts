@@ -7,6 +7,6 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromUnit: Units.DeltaCelsius,
     fromValue: 0.0,
     toUnit: Units.DeltaFahrenheit,
-    toValue: 0.0
-  }
+    toValue: 0.0,
+  },
 ];

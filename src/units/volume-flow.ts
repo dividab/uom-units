@@ -5,7 +5,7 @@ import {
   CubicFeet,
   HundredCubicFeet,
   Liter,
-  Gallon
+  Gallon,
 } from "./volume";
 import { Hour, Minute } from "./duration";
 

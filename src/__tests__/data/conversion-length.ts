@@ -9,35 +9,35 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromUnit: Units.CentiMeter,
     fromValue: 0.0,
     toUnit: Units.CentiMeter,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "10centimeters_10centimeters",
     fromUnit: Units.CentiMeter,
     fromValue: 10.0,
     toUnit: Units.CentiMeter,
-    toValue: 10.0
+    toValue: 10.0,
   },
   {
     name: "0centimeters_0meters",
     fromUnit: Units.CentiMeter,
     fromValue: 0.0,
     toUnit: BaseUnits.Meter,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "1centimeter_0_01_meter",
     fromUnit: Units.CentiMeter,
     fromValue: 1.0,
     toUnit: BaseUnits.Meter,
-    toValue: 0.01
+    toValue: 0.01,
   },
   {
     name: "12centimeters_0_12_meters",
     fromUnit: Units.CentiMeter,
     fromValue: 12.0,
     toUnit: BaseUnits.Meter,
-    toValue: 0.12
+    toValue: 0.12,
   },
   {
     name: "357centimeter_3_57meter",
@@ -45,7 +45,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 357.0,
     toUnit: BaseUnits.Meter,
     toValue: 3.57,
-    delta: 0.00000001
+    delta: 0.00000001,
   },
   {
     name: "0_56centimeters_0_0056meters",
@@ -53,28 +53,28 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 0.56,
     toUnit: BaseUnits.Meter,
     toValue: 0.0056,
-    delta: 0.00000001
+    delta: 0.00000001,
   },
   {
     name: "0centimeters_0kilometers",
     fromUnit: Units.CentiMeter,
     fromValue: 0.0,
     toUnit: Units.Kilometer,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "1centimeter_0_00001kilometers",
     fromUnit: Units.CentiMeter,
     fromValue: 1.0,
     toUnit: Units.Kilometer,
-    toValue: 0.00001
+    toValue: 0.00001,
   },
   {
     name: "120000centimeters_1_2kilometers",
     fromUnit: Units.CentiMeter,
     fromValue: 120000.0,
     toUnit: Units.Kilometer,
-    toValue: 1.2
+    toValue: 1.2,
   },
   {
     name: "78_centimeters_0_00078kilometers",
@@ -82,14 +82,14 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 78.0,
     toUnit: Units.Kilometer,
     toValue: 0.00078,
-    delta: 0.00000001
+    delta: 0.00000001,
   },
   {
     name: "0centimeter_0inch",
     fromUnit: Units.CentiMeter,
     fromValue: 0.0,
     toUnit: Units.Inch,
-    toValue: 0.0
+    toValue: 0.0,
   },
   {
     name: "1centimeter_0_3937inch",
@@ -97,7 +97,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 1.0,
     toUnit: Units.Inch,
     toValue: 0.3937,
-    delta: 0.00001
+    delta: 0.00001,
   },
   {
     name: "10centimeter_3_937inch",
@@ -105,7 +105,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 10.0,
     toUnit: Units.Inch,
     toValue: 3.937,
-    delta: 0.00001
+    delta: 0.00001,
   },
   {
     name: "0_87centimeter_0_34252inch",
@@ -113,8 +113,8 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 0.87,
     toUnit: Units.Inch,
     toValue: 0.34252,
-    delta: 0.000001
-  }
+    delta: 0.000001,
+  },
 ];
 
 /*

@@ -8,7 +8,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 10,
     toUnit: Units.StandardLiterPerSecond,
     toValue: 10000,
-    delta: 0.0000001
+    delta: 0.0000001,
   },
   {
     name: "36000StandardCubicMeterPerHour_10StandardCubicMeterPerSecond",
@@ -16,7 +16,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 36000,
     toUnit: Units.StandardCubicMeterPerSecond,
     toValue: 10,
-    delta: 0.0000001
+    delta: 0.0000001,
   },
   {
     name: "3600StandardCubicMeterPerHour_1000StandardLiterPerSecond",
@@ -24,7 +24,7 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 3600,
     toUnit: Units.StandardLiterPerSecond,
     toValue: 1000,
-    delta: 0.0000001
+    delta: 0.0000001,
   },
   {
     name: "1KilogramPerSecond_2990StandardCubicMeterPerHour",
@@ -32,6 +32,6 @@ export const tests: ReadonlyArray<ConversionTest> = [
     fromValue: 1,
     toUnit: Units.StandardCubicMeterPerHour,
     toValue: 2990,
-    delta: 1
-  }
+    delta: 1,
+  },
 ];
