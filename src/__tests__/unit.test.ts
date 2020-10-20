@@ -1,5 +1,5 @@
 import { Unit, BaseUnits } from "uom";
-import { Units } from "../src";
+import { Units } from "..";
 import { closeTo } from "./test-utils";
 
 describe("derived units", () => {

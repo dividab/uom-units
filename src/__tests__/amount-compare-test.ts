@@ -1,5 +1,5 @@
 import { Amount } from "uom";
-import { Units } from "../src";
+import { Units } from "..";
 
 describe("amount_compare_test", () => {
   test("default_comparer_true", () => {

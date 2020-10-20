@@ -1,5 +1,5 @@
 import { Format, BaseUnits } from "uom";
-import { Units, UnitsFormat } from "../src";
+import { Units, UnitsFormat } from "..";
 
 const containsAll = <T>(
   arr1: ReadonlyArray<T>,

@@ -1,6 +1,6 @@
 import { BaseUnits } from "uom";
 import { ConversionTest } from "./conversion-test";
-import { Units } from "../../src";
+import { Units } from "../..";
 
 export const tests: ReadonlyArray<ConversionTest> = [
   {

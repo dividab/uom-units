@@ -1,5 +1,5 @@
 import { Amount } from "uom";
-import { Units } from "../src";
+import { Units } from "..";
 import { closeTo } from "./test-utils";
 
 // TODO: Add typing tests:
