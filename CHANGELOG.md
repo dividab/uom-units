@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/dividab/uom/compare/v2.0.1...master)
+## [Unreleased](https://github.com/dividab/uom/compare/v2.0.2...master)
+
+## [v2.0.2](https://github.com/dividab/uom/compare/v2.0.1...v2.0.2)
+
+### Changed
+
+- Upgraded uom to 6.0.0. Previous version didn't update package.json
 
 ## [v2.0.1](https://github.com/dividab/uom/compare/v2.0.0...v2.0.1)
 

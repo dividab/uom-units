@@ -5032,7 +5032,7 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-uom@^6.0.0-0:
+uom@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/uom/-/uom-6.0.0.tgz#7117c9732e92db5e1dc52bc0cd01975ff39136be"
   integrity sha512-uJantsPDAiVM7cVtnHh1MfD6lRh4mUeyrlsLwsgfK835PU9pscXyedqXL3Dkv34XCS49MZFakOWV8mR1oYDmHg==
