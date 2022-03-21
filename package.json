@@ -1,6 +1,6 @@
 {
   "name": "uom-units",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "main": "lib-cjs/index.js",
   "module": "lib-esm/index.js",
   "types": "lib-cjs/index",
