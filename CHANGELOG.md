@@ -5,9 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/dividab/uom/compare/v2.3.0...master)
+## [Unreleased](https://github.com/dividab/uom/compare/v2.3.2...master)
 
-## [v2.3.1](https://github.com/dividab/uom/compare/v2.2.0...v2.3.1)
+## [v2.3.2](https://github.com/dividab/uom/compare/v2.3.1...v2.3.2)
+
+### Changed
+
+- BtuPerHourPerFeetPerFahrenheit correction
+
+## [v2.3.1](https://github.com/dividab/uom/compare/v2.3.0...v2.3.1)
 
 ### Added
 
