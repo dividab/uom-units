@@ -2,7 +2,7 @@
 import { BaseUnits } from "uom";
 import * as UnitDivide from "../unit-divide";
 import { Watt, BtuPerHour } from "./power";
-import { DeltaCelsius } from "./delta-temperature";
+import { DeltaCelsius, DeltaFahrenheit } from "./delta-temperature";
 import { Foot } from "./length";
 
 export type ThermalConductivity = "ThermalConductivity";
@@ -15,6 +15,6 @@ export const WattPerMeterPerKelvin = UnitDivide.heatCapacityRateByLength(
 );
 export const BtuPerHourPerFeetPerFahrenheit = UnitDivide.heatCapacityRateByLength(
   "BtuPerHourPerFeetPerFahrenheit",
-  UnitDivide.powerByDeltaTemperature("", BtuPerHour, DeltaCelsius),
+  UnitDivide.powerByDeltaTemperature("", BtuPerHour, DeltaFahrenheit),
   Foot
 );
