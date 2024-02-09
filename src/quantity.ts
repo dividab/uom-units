@@ -65,3 +65,4 @@ export { WaterUseEfficiency } from "./units/water-use-efficiency";
 export { WetTemperature } from "./units/wet-temperature";
 export { ThermalTransmittance } from "./units/thermal-transmittance";
 export { ThermalConductivity } from "./units/thermal-conductivity";
+export { MolarMass } from "./units/molar-mass";

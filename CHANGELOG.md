@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/dividab/uom/compare/v2.4.0...master)
+## [Unreleased](https://github.com/dividab/uom/compare/v2.5.0...master)
+
+## [v2.5.0](https://github.com/dividab/uom/compare/v2.4.0...v2.5.0)
+
+### Added
+
+- exporting quantity and added unit-format for MolarMass
 
 ## [v2.4.0](https://github.com/dividab/uom/compare/v2.3.4...v2.4.0)
 
