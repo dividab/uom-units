@@ -217,6 +217,14 @@ export function massByEnergy(
   return Unit.divide(name, "Emission", left, right);
 }
 
+export function massByMolarMass(
+  name: string,
+  left: Unit.Unit<Units.Mass>,
+  right: Unit.Unit<Units.AmountOfSubstance>
+): Unit.Unit<Units.MolarMass> {
+  return Unit.divide(name, "MolarMass", left, right);
+}
+
 export function massFlowByArea(
   name: string,
   left: Unit.Unit<Units.MassFlow>,

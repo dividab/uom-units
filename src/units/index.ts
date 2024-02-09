@@ -67,3 +67,4 @@ export * from "./amount-of-substance";
 export * from "./data-amount";
 export * from "./dew-point-temperature";
 export * from "./luminous-intensity";
+export * from "./molar-mass";
