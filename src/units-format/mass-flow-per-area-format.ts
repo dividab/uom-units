@@ -16,7 +16,7 @@ export const StandardCubicMeterPerHourPerSquareMeter = UnitFormat.createUnitForm
 );
 
 export const StandardLiterPerSecondPerSquareMeter = UnitFormat.createUnitFormat(
-  "Sl/m²s",
+  "Sl/s/m²",
   1
 );
 
