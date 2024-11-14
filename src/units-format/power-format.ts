@@ -9,3 +9,4 @@ export const TonCooling = UnitFormat.createUnitFormat("tons", 2);
 export const KiloBtuPerHour = UnitFormat.createUnitFormat("MBH", 1);
 export const HorsePower = UnitFormat.createUnitFormat("hp", 1);
 export const VoltAmpere = UnitFormat.createUnitFormat("VA", 2);
+export const KiloWattHourPerYear = UnitFormat.createUnitFormat("kWh/year", 1);

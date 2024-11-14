@@ -1,6 +1,8 @@
 import { Unit, UnitPrefix, BaseUnits } from "uom";
 import * as UnitDivide from "../unit-divide";
 import { Joule } from "./energy";
+import { KiloWattHour } from "./energy2";
+import { Year } from "./duration";
 
 export type Power = "Power";
 
@@ -31,4 +33,9 @@ export const VoltAmpere = Unit.createAlternate<"Power">(
   "VoltAmpere",
   "VA",
   Watt
+);
+export const KiloWattHourPerYear = UnitDivide.energyByDuration(
+  "KiloWattHourPerYear",
+  KiloWattHour,
+  Year
 );
