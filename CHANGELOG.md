@@ -7,9 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/dividab/uom/compare/v2.5.1...master)
 
-### Added
-
 ## [v3.0.0](https://github.com/dividab/uom/compare/v3.0.0...v2.6.0)
+
+### Changed 2025-10-24
 
 - More performant unitLookup, breaking change with removed unitString truthy check.
 
