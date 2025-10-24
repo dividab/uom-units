@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+## [v3.0.0](https://github.com/dividab/uom/compare/v3.0.0...v2.6.0)
+
+- More performant unitLookup, breaking change with removed unitString truthy check.
+
+### Changed
+
+- Changed StandardLiterPerSecondPerSquareMeter label from "Sl/m²s" to "Sl/s/m²"
+
 - Added KiloWattHourPerYear (kWh/year) unit
 
 ## [v2.5.1](https://github.com/dividab/uom/compare/v2.5.0...v2.5.1)
