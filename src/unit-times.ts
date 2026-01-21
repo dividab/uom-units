@@ -44,6 +44,14 @@ export function forceByLength(
   return Unit.times(name, "Energy", left, right);
 }
 
+export function forceByLengthTorque(
+  name: string,
+  left: Unit.Unit<Units.Force>,
+  right: Unit.Unit<Units.Length>
+): Unit.Unit<Units.Torque> {
+  return Unit.times(name, "Torque", left, right);
+}
+
 export function electricalPotentialByDuration(
   name: string,
   left: Unit.Unit<Units.ElectricPotential>,

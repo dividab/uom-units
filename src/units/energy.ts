@@ -13,11 +13,6 @@ export type Energy = "Energy";
 export const Joule = UnitTimes.forceByLength("Joule", Newton, BaseUnits.Meter);
 
 // Energy
-export const NewtonMeter = UnitTimes.forceByLength(
-  "NewtonMeter",
-  Newton,
-  BaseUnits.Meter
-);
 export const Kilojoule = UnitPrefix.Kilo("Kilojoule", Joule);
 export const Megajoule = UnitPrefix.Mega("Megajoule", Joule);
 

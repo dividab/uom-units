@@ -68,3 +68,4 @@ export * from "./data-amount";
 export * from "./dew-point-temperature";
 export * from "./luminous-intensity";
 export * from "./molar-mass";
+export * from "./torque";

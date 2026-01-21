@@ -64,3 +64,4 @@ export * from "./specific-fan-power-format";
 export * from "./temperature-format";
 export * from "./data-amount-format";
 export * from "./dew-point-temperature-format";
+export * from "./torque-format";

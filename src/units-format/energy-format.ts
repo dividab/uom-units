@@ -1,7 +1,6 @@
 import { UnitFormat } from "uom";
 
 export const Joule = UnitFormat.createUnitFormat("J", 2);
-export const NewtonMeter = UnitFormat.createUnitFormat("Nm", 0);
 export const Kilojoule = UnitFormat.createUnitFormat("kJ", 2);
 export const Megajoule = UnitFormat.createUnitFormat("MJ", 0);
 export const KiloWattHour = UnitFormat.createUnitFormat("kWh", 1);

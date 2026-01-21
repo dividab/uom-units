@@ -12,6 +12,7 @@ import * as ConversionVolume from "./data/conversion-volume";
 import * as ConversionMassFlow from "./data/conversion-mass-flow";
 import * as ConversionMassFlowPerArea from "./data/conversion-massflow-per-area";
 import * as ConversionMolarMass from "./data/conversion-molar-mass";
+import * as ConversionTorque from "./data/conversion-torque";
 
 const all = [
   ConversionDuration,
@@ -26,6 +27,7 @@ const all = [
   ConversionMassFlow,
   ConversionMassFlowPerArea,
   ConversionMolarMass,
+  ConversionTorque,
 ];
 
 // describe("denormalize() with shared test data", () => {
