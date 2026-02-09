@@ -53,6 +53,7 @@ export { SpecificHeatCapacity } from "./units/specific-heat-capacity";
 export { SquareRootPressure } from "./units/square-root-pressure";
 export { Temperature } from "./units/temperature";
 export { Text } from "./units/text";
+export { Torque } from "./units/torque";
 export { Velocity } from "./units/velocity";
 export { Viscosity } from "./units/viscosity";
 export { Volume } from "./units/volume";
