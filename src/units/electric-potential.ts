@@ -17,5 +17,6 @@ export const Volt = UnitDivide.powerByElectricalCurrent(
 );
 
 // ElectricPotential
+export const MicroVolt = UnitPrefix.Micro("MicroVolt", Volt);
 export const MilliVolt = UnitPrefix.Milli("MilliVolt", Volt);
 export const KiloVolt = UnitPrefix.Kilo("KiloVolt", Volt);
