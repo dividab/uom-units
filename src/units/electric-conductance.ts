@@ -1,6 +1,6 @@
 import { BaseUnits } from "uom";
 import * as UnitDivide from "../unit-divide";
-import { Volt } from "./electric-potential";
+import { Volt, MilliVolt, MicroVolt } from "./electric-potential";
 
 export type ElectricConductance = "ElectricConductance";
 
@@ -9,8 +9,21 @@ export type ElectricConductance = "ElectricConductance";
  * One Siemens is equal to one ampere per volt.
  * It is named after the German engineer Ernst Werner von Siemens (1816-1892).
  */
+
 export const Siemens = UnitDivide.electricalCurrentByElectricalPotential(
   "Siemens",
   BaseUnits.Ampere,
   Volt
+);
+
+export const MilliSiemens = UnitDivide.electricalCurrentByElectricalPotential(
+  "Siemens",
+  BaseUnits.Ampere,
+  MilliVolt
+);
+
+export const MicroSiemens = UnitDivide.electricalCurrentByElectricalPotential(
+  "Siemens",
+  BaseUnits.Ampere,
+  MicroVolt
 );
