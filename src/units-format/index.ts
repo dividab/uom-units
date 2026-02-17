@@ -65,3 +65,4 @@ export * from "./temperature-format";
 export * from "./data-amount-format";
 export * from "./dew-point-temperature-format";
 export * from "./torque-format";
+export * from "./electric-conductivity-format";

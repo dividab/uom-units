@@ -288,3 +288,11 @@ export function heatCapacityRateByLength(
 ): Unit.Unit<Units.ThermalConductivity> {
   return Unit.divide(name, "ThermalConductivity", left, right);
 }
+
+export function ElectricConductanceByLength(
+  name: string,
+  left: Unit.Unit<Units.ElectricConductance>,
+  right: Unit.Unit<Units.Length>
+): Unit.Unit<Units.ElectricConductivity> {
+  return Unit.divide(name, "ElectricConductivity", left, right);
+}
