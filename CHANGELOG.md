@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/dividab/uom/compare/v2.5.1...master)
 
+## [v4.0.1](https://github.com/dividab/uom/compare/v4.0.0...v4.0.1) 2026-02-17
+
+### Changed
+
+- Upgraded uom to 6.1.0.
+
 ## [v4.0.0](https://github.com/dividab/uom/compare/v4.0.0...v3.0.0) 2026-01-21
 
 ### Changed
