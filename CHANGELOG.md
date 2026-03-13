@@ -5,8 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/dividab/uom/compare/v2.5.1...master)
+## [Unreleased](https://github.com/dividab/uom/compare/v4.4.0...master)
 
+## [v4.4.0](https://github.com/dividab/uom-units/compare/v4.3.0...v4.4.0) 2026-03-13
+### Added
+- New unit `KilogramPerLiter` was added to density.
 ## [v4.3.0](https://github.com/dividab/uom/compare/v4.0.3...v4.3.0) 2026-02-17
 
 ### Added
