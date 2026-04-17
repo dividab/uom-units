@@ -1,6 +1,10 @@
 import * as UnitDivide from "../unit-divide";
 import { KiloWatt, Watt } from "./power";
-import { CubicMeterPerSecond, CubicFeetPerMinute } from "./volume-flow";
+import {
+  CubicMeterPerSecond,
+  CubicMeterPerHour,
+  CubicFeetPerMinute,
+} from "./volume-flow";
 
 export type SpecificFanPower = "SpecificFanPower";
 
@@ -14,6 +18,11 @@ export const WattPerCubicMeterPerSecond = UnitDivide.powerByVolumeFlow(
   "WattPerCubicMeterPerSecond",
   Watt,
   CubicMeterPerSecond
+);
+export const WattPerCubicMeterPerHour = UnitDivide.powerByVolumeFlow(
+  "WattPerCubicMeterPerHour",
+  Watt,
+  CubicMeterPerHour
 );
 export const KiloWattPerCubicFootPerMinute = UnitDivide.powerByVolumeFlow(
   "KiloWattPerCubicFootPerMinute",
