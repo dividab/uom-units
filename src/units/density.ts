@@ -1,7 +1,7 @@
 import { BaseUnits } from "uom";
 import * as UnitDivide from "../unit-divide";
 import { CubicMeter, CubicCentiMeter, CubicFeet, Liter } from "./volume";
-import { Gram, Slug, PoundLb } from "./mass";
+import { Gram, Slug, PoundLb, MilliGram } from "./mass";
 import { Kilogram } from "./base-units";
 
 export type Density = "Density";
@@ -30,5 +30,10 @@ export const PoundPerCubicFoot = UnitDivide.massByVolume(
 export const KilogramPerLiter = UnitDivide.massByVolume(
   "KilogramPerLiter",
   Kilogram,
+  Liter
+);
+export const MilliGramPerLiter = UnitDivide.massByVolume(
+  "MilliGramPerLiter",
+  MilliGram,
   Liter
 );
